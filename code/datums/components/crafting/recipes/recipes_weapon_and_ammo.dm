@@ -662,6 +662,7 @@
 	subcategory = CAT_WEAPON
 	always_availible = FALSE
 
+/*
 //brush gun
 /datum/crafting_recipe/brush
 	name = "Brush Gun"
@@ -677,6 +678,7 @@
 	category = CAT_WEAPONRY
 	subcategory = CAT_WEAPON
 	always_availible = FALSE
+*/
 
 //r91
 /datum/crafting_recipe/r91
