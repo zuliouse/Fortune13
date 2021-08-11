@@ -654,8 +654,10 @@
 /obj/item/clothing/suit/armor/f13/chitinarmor
 	name = "insect chitin armor"
 	desc = "(IV) A set of light armor made of insect chitin. Tough and light, it provides some moderate protection from trauma while allowing the user to remain mobile and protected from the elements."
-	icon_state = "insect_armor"
-	item_state = "insect_armor"
+	icon = 'icons/fallout/clothing/armored_light.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_light.dmi'
+	icon_state = "insect"
+	item_state = "insect"
 	armor = list("tier" = 4, "energy" = 25, "bomb" = 25, "bio" = 70, "rad" = 65, "fire" = 80, "acid" = 100)
 	flags_inv = HIDEJUMPSUIT
 	strip_delay = 40
@@ -683,8 +685,10 @@
 /obj/item/clothing/suit/armor/f13/sulphitearmor
 	name = "sulphite armor"
 	desc = "(VI) A combination of what seems to be raider metal armor with a jerry-rigged flame-exhaust system and ceramic plating."
-	icon_state = "sulphitearmor"
-	item_state = "sulphitearmor"
+	icon = 'icons/fallout/clothing/armored_heavy.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
+	icon_state = "sulphite"
+	item_state = "sulphite"
 	armor = list("tier" = 6, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20)
 
 /obj/item/clothing/suit/toggle/armor
@@ -741,8 +745,8 @@
 /obj/item/clothing/suit/armor/f13/battlecoat/vault
 	name = "command coat"
 	desc = "(III) A heavy pre-war bomber coat, dyed blue with the number '113' embroidered on the back. Most often worn by leaders, such as the Overseer."
-	icon_state = "vault_commandcoat"
-	item_state = "vault_commandcoat"
+	icon_state = "maxson_battlecoat"
+	item_state = "maxson_battlecoat"
 	armor = list("tier" = 3)
 
 /obj/item/clothing/suit/armor/f13/battlecoat/vault/overseer
